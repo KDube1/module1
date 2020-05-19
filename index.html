@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Module 1 Lab</title>
+</head>
+<body>
+<h1>Module 1 Survey</h1>
+<a id ="bblink" href = "https://www.bestbuy.ca/en-ca">Link to BestBuy Website</a>
+<br><a href = "https://www.bestbuy.ca/en-ca">
+    <img id="screenshot" src = "./website.png" >
+</a>
+
+<form>
+    <div class = "question">
+    <label for="firstquestion">Do you think the website's purpose is conveyed well?:</label><br>
+    <input type="text" id="firstquestion" name="firstquestion">
+    </div>
+
+    <div class = "question">
+    <label>On a scale of 1-5, rate how easy you think it would it would be to find a product on this site:</label><br>
+    <input type="radio" id="secondquestion1" name="secondquestion">
+    <label>1</label>
+
+    <input type="radio" id="secondquestion2" name="secondquestion">
+    <label>2</label>
+
+    <input type="radio" id="secondquestion3" name="secondquestion">
+    <label>3</label>
+
+    <input type="radio" id="secondquestion4" name="secondquestion">
+    <label>4</label>
+
+    <input type="radio" id="secondquestion5" name="secondquestion">
+        <label>5</label></div>
+
+    <div class = "question">
+    <label for="shopselect">Do you think the shop button is sufficiently visible, or should it be more or less visible?:</label>
+
+    <select id="shopselect">
+        <option value="Sufficiently Visible">Sufficiently Visible</option>
+        <option value="more">More</option>
+        <option value="less">Less</option>
+    </select> </div>
+
+    <div class = "question">
+    <label>Based on what you have seen, how many of the following do you think you can purchase on this website?:</label> <br>
+    <input type="checkbox" id="check1" name="fourthquestion" value="Bike">
+    <label for="check1"> Computers</label><br>
+    <input type="checkbox" id="check2" name="fourthquestion" value="Car">
+    <label for="check2"> Drones</label><br>
+    <input type="checkbox" id="check3" name="fourthquestion" value="Boat">
+        <label for="check3"> Phones</label></div>
+
+    <div class = "question">
+        <textarea id="commentq">Additional comments can be written here</textarea>
+    </div>
+
+    <div class = "question">
+    <label>How much do you agree with the following statement: "This website looks easy to use"</label><br>
+    <table>
+        <tr>
+            <th>Strongly Agree</th>
+            <th>Agree</th>
+            <th>Neutral</th>
+            <th>Disagree</th>
+            <th>Strongly Disagree</th>
+
+
+        </tr>
+    </table>
+
+        <input type="range" id="likert" name="vol" min="0" max="100"> </div>
+    <br><input type="submit" value="Submit">
+
+</form>
+
+
+</body>
+
+<footer class="footer">
+    Designed by Krishna D.
+</footer>
+</html>

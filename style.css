@@ -1,0 +1,42 @@
+h1{
+    font-family: Calibri;
+}
+
+.question{
+    font-family: Calibri;
+    margin-top: 5%;
+}
+
+table{
+    width:50%;
+    font-family:"Calibri";
+}
+
+#likert{
+    margin-left: 3%;
+    width:45%
+}
+
+#bblink{
+    font-family: Calibri;
+}
+
+#screenshot{
+    width: 60%;
+    height: 60%;
+}
+
+.footer{
+    margin-top: 5%;
+    color:dodgerblue;
+    text-align: right;
+}
+
+#firstquestion{
+    width:50%;
+}
+
+#commentq{
+    width: 50%;
+    height:10vh;
+}
